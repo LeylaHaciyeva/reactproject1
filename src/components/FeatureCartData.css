@@ -1,0 +1,76 @@
+
+.feature-cart-col:hover .feature-card-icon {
+    background-color: rgb(231, 228, 228);
+    color: #4285f4;
+  }
+  .feature-cart-col:hover {
+    transform: translateY(-10px);
+    transition: all ease 0.5s;
+  }
+  .feature-cart-col:hover .feature-card-text {
+    background-color: #4285f4;
+  }
+  .feature-cart-col:hover .feature-card-text h1 {
+    color: white;
+  }
+  .feature-cart-col:hover .feature-card-text p {
+    color: white;
+  }
+  .feature-cart-col:hover .feature-card-text a {
+    color: white;
+  }
+  .feature-card-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -35px;
+    left: 38%;
+    text-align: center;
+    background-color: #4285f4;
+    color: white;
+  }
+  .feature-card-text {
+    padding: 60px 5px 10px 5px;
+    background-color: #f1f1f1;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .feature-card-text h1 {
+    font-size: 19px;
+    font-family: ubuntu;
+    color: black;
+    font-weight: 400;
+  }
+  .feature-card-text p {
+    color: #636262;
+    font-size: 14px;
+  }
+  .feature-card-text a {
+    color: #4285f4;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+  }
+  .feature-card-text a:hover {
+    color: #1a4c9c;
+    transition: all ease 0.3s;
+  }
+  @media screen and (max-width: 768px) {
+    .feature-card-icon {
+      left: 42%;
+    }
+    .feature-card-text p{
+        padding: 10px 0;
+    }
+  }
+  @media screen and (max-width: 350px) {
+      .feature-card-icon {
+        left: 40%;
+      }
+    }
+   

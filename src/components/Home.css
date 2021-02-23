@@ -1,0 +1,234 @@
+.home-left h1 {
+  margin-top: 80px;
+  font-size: 45px;
+  font-family: ubuntu;
+  font-weight: 700;
+  color: black;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+.home-left p {
+  margin: 30px 0;
+  font-size: 15px;
+  font-family: ubuntu;
+  color: rgb(138, 135, 135);
+  font-weight: 400;
+}
+.home-left .started-btn {
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background-color: #4285f4;
+  border-radius: 20px;
+  padding: 8px 25px;
+  color: white;
+}
+.home-left .started-btn:hover {
+  margin-top: 15px;
+  transition: all ease 0.4s;
+}
+@media screen and (max-width: 450px) {
+  .home-left h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: ubuntu;
+    font-weight: 500;
+    color: black;
+    line-height: 1;
+    letter-spacing: 1px;
+  }
+}
+/* -----------------------------------------HOME burada bitdi-------------------------------------- */
+.feature-row {
+  margin-top: 30px;
+}
+.feature-header-text {
+  text-align: center;
+}
+.feature-header-text h1 {
+  font-size: 45px;
+  font-family: ubuntu;
+  font-weight: 700;
+  color: black;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+.feature-header-text p {
+  margin: 30px 0;
+  font-size: 17px;
+  font-family: ubuntu;
+  color: rgb(138, 135, 135);
+  font-weight: 400;
+}
+
+/* --------------------------------------------------ABOUT----------------------- */
+
+.about-row {
+  background-color: rgb(229, 232, 235);
+}
+.about-row h1 {
+  color: black;
+  font-size: 35px;
+  font-family: ubuntu;
+  font-weight: 500;
+}
+.about-text {
+  padding-top: 20px;
+}
+.about-text h2 {
+  color: black;
+  padding-bottom: 10px;
+}
+.about-text .about-p {
+  color: rgb(103, 106, 109);
+  font-family: ubuntu;
+  font-size: 17px;
+  line-height: 2;
+}
+.about-ul {
+  list-style: none;
+}
+.about-ul li {
+  display: flex;
+  color: rgb(109, 107, 107);
+}
+.about-ul li i {
+  margin-right: 15px;
+  color: rgb(29, 202, 29);
+}
+.about-text a {
+  margin-top: 50px;
+}
+/* ----------TEAM----------- */
+.team-cart-text{
+  background-color: #bdbdbd;
+  padding: 10px;
+  border-radius: 10px;
+}
+.team-header-text h1 {
+  font-family: ubuntu;
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+}
+.team-header-text p {
+  color: rgb(97, 97, 97);
+  font-size: 16px;
+  padding-top: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  line-height: 2;
+}
+.team-cart-text h4 {
+  padding-top: 10px;
+  color: black;
+  font-size: 17px;
+}
+.team-cart-text h5 {
+  color: #204d94;
+  font-size: 16px;
+  padding-top: 10px;
+}
+.team-cart-text p {
+  padding-top: 20px;
+  color: rgba(41, 36, 36, 0.867);
+  font-size: 15px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+@media screen and (max-width:768px){
+  .team-cart-text{
+    margin: 10px 20px;
+  }
+}
+
+
+/*------------------TESTIMONIALSLIDER------------------------------ */
+.testimonial-text{
+  background-color: #bdbdbd;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.testimonial-text h1{
+  padding: 10px 0 20px 0;
+}
+.testimonial-text p{
+  color: #555555;
+  font-size: 20px;
+  font-weight: 500;
+  padding:20px 0;
+  font-family: ubuntu;
+}
+.testimonial-slider-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+
+/* -----------------------------------BLOG TEXT--------------------------------- */
+
+.blog-text{
+  background-color: #eeeeee;
+}
+.blog-text h1{
+  color: black;
+  font-size: 28px;
+  padding: 8px 0;
+  font-weight: 400;
+  font-family: ubuntu;
+}
+.blog-text p{
+  color: #555555;
+  font-size: 16px;
+  font-family: ubuntu;
+  font-weight: 300;
+}
+.blogger p{
+  color: #555555;
+}
+.blogger ul{
+  display: flex;
+  color: #555555;
+}
+.blogger ul li{
+  margin-right: 25px;
+}
+.blog-text a{
+  text-decoration: none;
+}
+
+/* ---------------CONTACT------------------------------------------- */
+.back-contact{
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  background-color: black;
+  opacity: .8;
+}
+.contact-row{
+  width:100%;
+  background-color: white;
+  padding: 15px;
+  color: black;
+}
+.contact-row input,.contact-row textarea{
+  width:100%;
+  border-radius:0;
+  border: 1px solid black;
+}
+.contact-row input{
+  height: 30px;
+}
+.send-btn{
+  margin: 50px 0 10px 10px;
+}
+
+/* -------------------------------FOOTER----------------- */
+.social-col a{
+  margin-right: 10px;
+  text-decoration:none;
+}
+.social-col a:hover{
+  text-decoration: none;
+}
